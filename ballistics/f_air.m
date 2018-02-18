@@ -11,7 +11,7 @@ function dYdt = f_air(Y, t)
   rho = 1.29;
   
   % Коэффициент сопротивления снаряда
-  k = 3 * c_f * rho / 2 / gamma / d;
+  k = 3 * c_f * rho / 4 / gamma / d;
  
   % Модуль скорости снаряда
   v = sqrt(Y(3) * Y(3) + Y(4) * Y(4));  
